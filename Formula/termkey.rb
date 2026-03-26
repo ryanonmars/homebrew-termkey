@@ -4,21 +4,21 @@
 class Termkey < Formula
   desc "CLI encrypted storage for private keys and seed phrases"
   homepage "https://github.com/ryanonmars/termkey"
-  version "0.2.10"
+  version "0.2.11"
   license "MIT"
 
-  url "https://github.com/ryanonmars/termkey/releases/download/v0.2.10/termkey-linux-x86_64.zip"
-  sha256 "0b4d00d1d300dcb9d83adf62751ab7790159c516ae69c33aa35552a1f82dc19c"
+  url "https://github.com/ryanonmars/termkey/releases/download/v0.2.11/termkey-linux-x86_64.zip"
+  sha256 "765949521dc5dba6528b34e2fbc31ab1a040f12089ab4746c2f84b14aeee5ddc"
 
   on_macos do
     on_intel do
-      url "https://github.com/ryanonmars/termkey/releases/download/v0.2.10/termkey-macos-x86_64.zip"
-      sha256 "feba930ca37adf312b27e6a45c979440d4f68dd1d6bec05afc9e765467dff4aa"
+      url "https://github.com/ryanonmars/termkey/releases/download/v0.2.11/termkey-macos-x86_64.zip"
+      sha256 "46770bfed9cb9892519e189e4920f0dc732b9cd0565087761b62b17a8ce3ae67"
     end
 
     on_arm do
-      url "https://github.com/ryanonmars/termkey/releases/download/v0.2.10/termkey-macos-aarch64.zip"
-      sha256 "4283e52b1c706741d0f288f269cf4fa9a8d044884fb015fd308edb25e6c0365f"
+      url "https://github.com/ryanonmars/termkey/releases/download/v0.2.11/termkey-macos-aarch64.zip"
+      sha256 "cfbc3ae06d3f414652863df2e7ed8bc9d9b87c12980fb2829f73941b0e9c0bd8"
     end
   end
 
