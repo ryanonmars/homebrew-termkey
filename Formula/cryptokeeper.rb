@@ -4,21 +4,21 @@
 class Cryptokeeper < Formula
   desc "CLI encrypted storage for private keys and seed phrases"
   homepage "https://github.com/ryanonmars/CryptoKeeper"
-  version "0.2.8"
+  version "0.2.10"
   license "MIT"
 
-  url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.8/termkey-linux-x86_64.zip"
-  sha256 "abbafd0ef1aeaae6e361b167396baf2f657c05a06c90c9843cbdc1e65340a950"
+  url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.10/termkey-linux-x86_64.zip"
+  sha256 "0b4d00d1d300dcb9d83adf62751ab7790159c516ae69c33aa35552a1f82dc19c"
 
   on_macos do
     on_intel do
-      url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.8/termkey-macos-x86_64.zip"
-      sha256 "475e0e9a08e39536173cc5edb6fc6d69dc2f974235ff14479c2567e08a231a4e"
+      url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.10/termkey-macos-x86_64.zip"
+      sha256 "feba930ca37adf312b27e6a45c979440d4f68dd1d6bec05afc9e765467dff4aa"
     end
 
     on_arm do
-      url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.8/termkey-macos-aarch64.zip"
-      sha256 "3445f47227debbd6cabf62029ecd5d2bca7053b1847c507d62c468a4450a779a"
+      url "https://github.com/ryanonmars/CryptoKeeper/releases/download/v0.2.10/termkey-macos-aarch64.zip"
+      sha256 "4283e52b1c706741d0f288f269cf4fa9a8d044884fb015fd308edb25e6c0365f"
     end
   end
 
